@@ -34,7 +34,7 @@
     ```
     * cd awesome/job/, 找到`load_prod_data_job.py`文件, 传入以下参数:
         1. file_path: cpc_bd_sdk_show_v1.csv的绝对路径
-        2. dfs_file_path: CDH环境的目标表目录, hdfs://zjkb-cpc-backend-bigdata-qa-01:8020/user/hive/warehouse/dl_cpc.db/cpc_basedata_bidsdk_event/event_type=show
+        2. dfs_file_path: CDH环境的目标表目录, hdfs://xx/user/hive/warehouse/dl_cpc.db/cpc_basedata_bidsdk_event/event_type=show
         3. schema_path: cpc_bd_sdk_show_v1_schema.json的绝对路径
         4. database: CDH的目标数据库, dl_cpc
         5. table: CDH的目标表cpc_bd_sdk_show_v1
@@ -48,4 +48,4 @@
     
 5. 使用情况
     
-    目前该工具已通过杨恺的多次实战, 导入过cpc_bd_sdk_show_v1表和cpc_basedata_click_event表的生产数据, 用于主题表的本地测试: dl_cpc.dws_cpc_bd_sdk_show_daily的实战(http://corp-dc-kepler.qutoutiao.net/kepler-vue/#/?type=Hive%20SQL&name=dl_cpc.dws_cpc_bd_sdk_show_daily), 欢迎大家尝试使用, 也可以作为测试同学提高的学习模板
+    目前该工具已通过杨恺的多次实战, 导入过cpc_bd_sdk_show_v1表和cpc_basedata_click_event表的生产数据, 用于主题表的本地测试: dl_cpc.dws_cpc_bd_sdk_show_daily的实战, 欢迎大家尝试使用, 也可以作为测试同学提高的学习模板
